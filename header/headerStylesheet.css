@@ -1,7 +1,7 @@
-/*body{
+body{
 	background-color: #EDF5FC;
 	opacity: 9;
-}*/
+}
 .navbar{
 	background-color: #0087D5;
 	margin-top: -10px;
@@ -25,13 +25,13 @@
 	color: white;
 	height: 40px;
 }
-.glyphicon{
+.glyphicon-search{
 	float: right;
 	background-color: #006098;
 	border: 0px;
 	color: white;
 	margin-right: -30px;
-	margin-top: 10px;
+	margin-top: 13px;
 }
 .navbar-brand{
 	font-size: 10px;
@@ -144,6 +144,7 @@ li{
 	.navbar-right li a{
 		width: 45px;
 		margin-left: 10px;
+		margin-bottom: 5px;
 	}
 }
 @media (min-width: 836px) and (max-width: 1040px){

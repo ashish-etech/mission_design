@@ -2,10 +2,10 @@ body{
 	background-color: #0085D3;
 	font-family:sans-serif;
 }
-.panel-group{
+.panel-group-div{
 	margin-top: 40%;
 }
-.panel-heading{
+.panel-heading-div{
 	height: 60px;
 	color: #767688;
 	text-align: center;
@@ -26,7 +26,7 @@ b{
 #text{
 	margin-top: 7%;
 }
-.panel-body{
+.panel-body-div{
 	margin-left: 10%;
 	margin-right: 10%;
 }
@@ -56,7 +56,7 @@ input::-webkit-input-placeholder {
 
 
 @media only screen and (max-width: 768px){
-	.panel-group{
+	.panel-group-div{
 		margin-top: 10%;
 	}
 }

@@ -1,8 +1,8 @@
 
 <div class="col-sm-3 col-sm-offset-4">
-    <div class="panel-group">
+    <div class="panel-group panel-group-div">
         <div class="panel">
-            <div class="panel-heading"><h4>{{data.companyName}}</h4>
+            <div class="panel-heading panel-heading-div"><h4>{{data.companyName}}</h4>
             </div>
            <div id="text">
                 <center>
@@ -10,7 +10,7 @@
                     <p id="para">pour decouvrir vod premiers candidats</p>
                 </center>
             </div>
-          <div class="panel-body">
+          <div class="panel-body panel-body-div">
                 <form name="form" ng-submit="submit(user)" novalidate>
                     <div class="form-group" ng-class="{ 'has-error' : form.user_name.$invalid && !form.user_name.$pristine }">
                         <input type="text" class="form-control" placeholder="{{data.defaultName}}" name="user_name" ng-model="user.user_name" ng-change="change()" required>

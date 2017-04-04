@@ -6,7 +6,7 @@ app.controller('loginController',function($scope,$state){
 		defaultEmail: "johnny@acme-company.com"
 	};
 	$scope.submit=function(){
-		$state.go('header');
+		$state.go('dashboard');
 	}
 
 });

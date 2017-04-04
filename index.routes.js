@@ -14,4 +14,11 @@ app.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'header/header.html',
             controller: 'headerController',
         })
+        .state('dashboard', {
+
+            url: '/dashboard',
+            templateUrl: 'dashboard/dashboard.html',
+            controller: 'dashboardController',
+        })
+
 })
