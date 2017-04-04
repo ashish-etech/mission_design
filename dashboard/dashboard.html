@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbackground">
     <div class="container">
         <div class="navbar-header">
             <div href="#" class="margin">
@@ -17,10 +17,10 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="panel panel-default">
-                    <div class="panel-body">
-                        <a><b>{{details.offers[0].name}}</b>
-                        <ul>
-                            <li ng-repeat="data in details.offers[0].stats">
+                    <div class="panel-body panelpadding">
+                        <a class="anchorstyle"><b>{{details.offers[0].name}}</b>
+                        <ul class="ulstyle">
+                            <li class="liststyle" ng-repeat="data in details.offers[0].stats">
                                 &#x25CF;{{data.state}}
                                 <span class="valuecolor">{{data.value}}</span>
                             </li>
@@ -31,10 +31,10 @@
             </div>
             <div class="col-sm-6">
                 <div class="panel panel-default">
-                    <div class="panel-body">
-                        <a> <b>{{details.offers[1].name}}</b>
-                            <ul>
-                                <li ng-repeat="data in details.offers[1].stats">
+                    <div class="panel-body panelpadding">
+                        <a class="anchorstyle"> <b>{{details.offers[1].name}}</b>
+                            <ul class="ulstyle">
+                                <li class="liststyle" ng-repeat="data in details.offers[1].stats">
                                     &#x25CF;{{data.state}}
                                     <span class="valuecolor">{{data.value}}</span>
                                 </li>
@@ -48,10 +48,10 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="panel panel-default">
-                    <div class="panel-body">
-                        <a> <b> {{details.offers[2].name}}</b>
-                            <ul>
-                                <li ng-repeat="data in details.offers[2].stats">
+                    <div class="panel-body panelpadding">
+                        <a class="anchorstyle"> <b> {{details.offers[2].name}}</b>
+                            <ul class="ulstyle">
+                                <li class="liststyle" ng-repeat="data in details.offers[2].stats">
                                     &#x25CF;{{data.state}}
                                     <span class="valuecolor">{{data.value}}</span>
                                 </li>
@@ -63,10 +63,10 @@
             </div>
             <div class="col-sm-6">
                 <div class="panel panel-default">
-                    <div class="panel-body">
-                        <a> <b> {{details.offers[3].name}}</b>
-                            <ul>
-                                <li ng-repeat="data in details.offers[3].stats">
+                    <div class="panel-body panelpadding">
+                        <a class="anchorstyle"> <b> {{details.offers[3].name}}</b>
+                            <ul class="ulstyle">
+                                <li class="liststyle" ng-repeat="data in details.offers[3].stats">
                                     &#x25CF;{{data.state}}
                                     <span class="valuecolor"> {{data.value}}</span>
                                 </li>
