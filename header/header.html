@@ -1,0 +1,48 @@
+
+
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+		<a class="navbar-brand" href="">{{data.companyName}}</a>
+		</div>
+		<br>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-left">
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="">{{data.currentOfferName}} <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="">{{data.offerList[0].name}}</a></li>
+							<li><a href="">{{data.offerList[1].name}}</a></li>
+							<li><a href="">{{data.offerList[2].name}}</a></li>
+							<li><a href="">{{data.offerList[3].name}}</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav" id="myNavbarCenter"  ng-repeat="menu in data.states">
+					<li class="center"><a href="">{{menu.state}} <b class="number">{{menu.value}} &nbsp;<span class="caret-right"></span></b> </a></li>
+					
+				</ul>
+				<ul class="nav navbar-right">
+					<li class="dropdown">
+						<a class="link dropdown-toggle" data-toggle="dropdown" href="">{{data.accountLetters}}</a>
+						<ul class="dropdown-menu" id="dropdownLink"  aria-expanded="false">
+							<li><a href="">Mes Offres</a></li>
+							<li><a href="">Changer de compte</a></li>
+							<li><a href="">Déconnexion</a></li>
+						</ul>
+					</li>
+
+				</ul>
+			</div>
+	</div><br>
+	<div class="search">
+		
+		<input class="form-control" id="searchForm" type="text" name="search" ng-change="focus()" ng-model="value"><span ng-hide="hide" class="glyphicon glyphicon-search"></span>
+	</div>
+</nav>
+ 
