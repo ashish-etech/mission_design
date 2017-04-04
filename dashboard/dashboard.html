@@ -1,0 +1,81 @@
+<nav class="navbar navbar-default navbackground">
+    <div class="container">
+        <div class="navbar-header">
+            <div href="#" class="margin">
+                <span class="namestyle">  <img src="images/logo.jpg">{{details.companyName}}</span>
+            </div>
+        </div>
+        <div class="pull-right padding">
+            {{details.accountLetters}}
+        </div>
+</nav>
+
+<body>
+    <div class="container">
+        <h2>Mes offres</h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-body panelpadding">
+                        <a class="anchorstyle"><b>{{details.offers[0].name}}</b>
+                        <ul class="ulstyle">
+                            <li class="liststyle" ng-repeat="data in details.offers[0].stats">
+                                &#x25CF;{{data.state}}
+                                <span class="valuecolor">{{data.value}}</span>
+                            </li>
+                            <span class="glyphicon glyphicon-menu-right pull-right"></span>
+                        </ul></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-body panelpadding">
+                        <a class="anchorstyle"> <b>{{details.offers[1].name}}</b>
+                            <ul class="ulstyle">
+                                <li class="liststyle" ng-repeat="data in details.offers[1].stats">
+                                    &#x25CF;{{data.state}}
+                                    <span class="valuecolor">{{data.value}}</span>
+                                </li>
+                                <span class="glyphicon glyphicon-menu-right pull-right"></span>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-body panelpadding">
+                        <a class="anchorstyle"> <b> {{details.offers[2].name}}</b>
+                            <ul class="ulstyle">
+                                <li class="liststyle" ng-repeat="data in details.offers[2].stats">
+                                    &#x25CF;{{data.state}}
+                                    <span class="valuecolor">{{data.value}}</span>
+                                </li>
+                                <span class="glyphicon glyphicon-menu-right pull-right"></span>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-body panelpadding">
+                        <a class="anchorstyle"> <b> {{details.offers[3].name}}</b>
+                            <ul class="ulstyle">
+                                <li class="liststyle" ng-repeat="data in details.offers[3].stats">
+                                    &#x25CF;{{data.state}}
+                                    <span class="valuecolor"> {{data.value}}</span>
+                                </li>
+                                <span class="glyphicon glyphicon-menu-right pull-right"></span>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
