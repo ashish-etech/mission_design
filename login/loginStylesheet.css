@@ -1,0 +1,82 @@
+.container-login{
+	background-color: #0085D3;
+	font-family:sans-serif;
+	width: 100%;
+	min-height: 662px;
+}
+.panel-group-div{
+	margin-top: 10%;
+}
+.panel-heading-div{
+	height: 60px;
+	color: #767688;
+	text-align: center;
+	font-weight: bold;
+	background-color: #EDF5FC;
+}
+.textarea{
+	height: 30px;
+}
+h4{
+	font-size: 24px;
+}
+b{	
+	font-size: 13px;
+	font-family: 'Palanquin Dark', sans-serif;
+	font-weight: normal;
+	opacity: 0.8;
+}
+
+#para{
+	opacity: 0.7;
+	font-size: 9px;
+}
+#text{
+	margin-top: 7%;
+}
+.panel-body-div{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.btn-success{
+	width: 100%;
+}
+#log{
+	font-size: 12px;
+	margin-bottom: 0px;
+
+}
+.checkbox{
+	margin-top: 0px;
+}
+#box{
+	margin-top: 0px;
+
+}
+.checkbox label{
+	font-size: 10px;
+	opacity: 0.8;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1081px){
+	.col-md-3{
+		width: 40%;
+		margin-left: 35%;
+	}
+	.panel-group-div{
+		margin-top: 30%;
+	}
+}
+@media only screen and (min-width: 1082px) {
+	
+	.panel-group-div{
+		margin-top: 30%;
+	}
+	.col-md-3{
+	width: 27%;
+}
+}
