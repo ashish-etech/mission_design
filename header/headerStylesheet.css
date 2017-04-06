@@ -1,8 +1,13 @@
-body{
+.container-header{
 	background-color: #EDF5FC;
-	opacity: 9;
+	opacity: 0.9;
+	width: 100%;
+    height: 537px;
+    margin-top: -20px;
+    padding: 0px;
+
 }
-.navbar{
+.navBody{
 	background-color: #0087D5;
 	margin-top: -10px;
 }

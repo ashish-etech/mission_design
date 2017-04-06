@@ -1,5 +1,5 @@
 var app = angular.module("mission_design");
-app.controller("dashboardController", function($scope) {
+app.controller("dashboardController", function($scope,$state) {
 
     $scope.details = {
         accountLetters: "IB",
@@ -47,6 +47,10 @@ app.controller("dashboardController", function($scope) {
             ],
             onClick: function() {}
         }]
+    }
+    $scope.logout=function(){
+        $state.go("login");
+
     }
 
 
